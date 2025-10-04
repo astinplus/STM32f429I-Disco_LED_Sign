@@ -31,7 +31,7 @@
 #define TEXT_R						80
 #define TEXT_G						12
 #define TEXT_B						12
-#define TEXT_BUFFER				10
+#define TEXT_BUFFER				2
 #define TEXT_LENGTH				10
 #define BG_R							255
 #define BG_G							255
@@ -42,19 +42,20 @@
 #define B									4287730030
 #define E									4287730065
 #define H 								4279243007
-#define I									0
+#define I									2181037953
 #define L									4278255873
 #define M									4282401023
 #define N									0
 #define O									2122416510
 #define T									2164228224
 #define U									0
+#define S									1904839046
 #define SPACE							0
 #define FULL							4294967295
 
 
 //unsigned int full_text[] = {B, T, H, O, SPACE, N, M};
-unsigned int full_text[] = {B, T, H, O, SPACE, A, L, A, B, A, M, A, FULL, FULL, FULL};
+unsigned int full_text[] = {B, T, H, O, SPACE, M, I, S, S, SPACE, S, T, SPACE, S, T, FULL, FULL, FULL};
 
 unsigned int animPeriod = 2*FREQ;
 
